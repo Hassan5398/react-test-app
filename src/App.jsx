@@ -63,7 +63,7 @@ function App() {
               ✕ Close
             </button>
             <iframe 
-  src="https://688cae149b1dc4000894c4f6--sparkly-souffle-b49581.netlify.app/"
+  src="https://688cb6b7dc0bee00088c2389--sparkly-souffle-b49581.netlify.app/"
   style={{ 
     width: '100%',
     height: '100%',
