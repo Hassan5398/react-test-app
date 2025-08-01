@@ -63,19 +63,22 @@ function App() {
               ✕ Close
             </button>
             <iframe 
-              src="https://5c6da4887634.ngrok-free.app/"
-              style={{ 
-                width: '100%',
-                height: '100%',
-                border: 'none',
-                flex: 1,
-                // Mobile Safari specific fixes
-                minHeight: '100%',
-                WebkitTransform: 'translateZ(0)',
-                transform: 'translateZ(0)'
-              }}
-              title="Full Screen External Content"
-            />
+  src="https://5c6da4887634.ngrok-free.app/"
+  style={{ 
+    width: '100%',
+    height: '100%',
+    border: 'none',
+    flex: 1,
+    // Mobile Safari specific fixes
+    minHeight: '100%',
+    WebkitTransform: 'translateZ(0)',
+    transform: 'translateZ(0)'
+  }}
+  title="Full Screen External Content"
+  allow="camera; microphone; fullscreen; autoplay"
+  sandbox="allow-same-origin allow-scripts allow-popups allow-forms allow-downloads"
+  referrerPolicy="no-referrer-when-downgrade"
+/>
           </div>
         </div>
       )}
