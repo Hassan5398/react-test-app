@@ -8,7 +8,8 @@ export default defineConfig({
     allowedHosts: [
       '0dad6a658e38.ngrok-free.app',
       '5c6da4887634.ngrok-free.app',
-      "https://7175d28f1dbd.ngrok-free.app"
+      "https://7175d28f1dbd.ngrok-free.app",
+      "https://688c63248f1a7700088dff3d--sparkly-souffle-b49581.netlify.app/"
     ]
   }
 })
